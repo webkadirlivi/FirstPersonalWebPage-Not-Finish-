@@ -1,0 +1,28 @@
+@media only screen and (max-width: 768px) {
+   
+    .navbar{
+        flex-direction: column;
+        height: 120px;
+        padding: 20px;
+    }
+
+    .navbar a{
+        padding: 10px 10px;
+        margin: 0 3px;
+    }
+
+    .content{
+        flex-direction: column;
+        padding-top: 130px;
+        
+        
+    }
+
+    .content .content-me{
+        display: none;
+    }
+
+    .content .icons {
+        display: block;
+    }
+}
