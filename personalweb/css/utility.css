@@ -1,4 +1,9 @@
 .text-primary{
-    color:goldenrod;
+    color: #fb8500;
+    font-weight: 700;
+}
+
+.text-secondary{
+    color: #ffb703;
     font-weight: 700;
 }
