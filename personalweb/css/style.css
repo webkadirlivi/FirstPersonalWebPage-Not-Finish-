@@ -9,6 +9,7 @@
 
 body {
   font-family: "Nunito Sans", sans-serif;
+  background-color: rgb(0,1, 0);
 }
 
 h1,
@@ -53,6 +54,10 @@ li {
  
 }
 
+.logo i{
+  color: goldenrod;
+}
+
 .navbar {
     position: fixed;
   display: flex;
@@ -86,6 +91,25 @@ li {
 }
 
 
+.showcase-about {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 500px 100px;
+  color: #fff;
+  
+}
+
+.showcase-about h2{
+  padding: 10px 0;
+}
+
+
+#about{
+  background-color: rgb(0,1, 0);
+  color: #fff;
+  
+}
 
 .learning > h1 {
     text-align: center;
@@ -93,13 +117,49 @@ li {
     padding-bottom: 10px;
 }
 
+
 .learning-items{
   display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
+  
 }
 
-.learning{
-  padding: 30px;
+  .learning{
+    padding: 30px;
+  }
+
+  .learning h1{
+text-transform: uppercase;
+padding-bottom: 20px;
+  }
+
+  .learning h3{
+    font-weight: 900;
+  }
+
+.box{
+  border-radius: 5px;
+  height: 280px;
+  width: 200px;
+  padding: 10px 10px;
+  margin: 20px 50px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  transform-style: preserve-3d;
+  transform: perspective(2000px);
+} 
+
+.box p, h3, i{
+  transform: translateZ(30px);
+  color: black;
+}
+
+.js-tilt-glare{
+  border-radius: 5px;
 }

@@ -24,5 +24,19 @@
 
     .content .icons {
         display: block;
+        
     }
+
+    video{
+        display: none;
+    }
+
+    #about{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+   
 }
+
